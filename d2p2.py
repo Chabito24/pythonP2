@@ -31,7 +31,7 @@ print ("tu nombre es " + nombre + " " + apellido)
 
 # ejemplo 3 #
 
-p1 = "hola "
+p1 = "hola"
 p2 = "python"
-frase = p1 + p2
+frase = p1 + " " +p2
 print(frase)

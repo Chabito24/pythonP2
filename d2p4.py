@@ -36,8 +36,13 @@ print(type(edad)) # cambio a STR
 nueva_edad = 1 + edad # creamos una nueva variable tipo INT y sumamos edad la cual ya es un INT con la conversion de la linea anterior
 print(nueva_edad) #realizo la suma de edad + 1 ya que ambos datos son el mismo tipo y no genera error
 
-# paso de INT a STR para concatenar (NO usar ver d2p5, aunque esta es una opcion no se recomienda
 
-nueva_edad = str(nueva_edad)
-print(type(nueva_edad))
-print("en tu proximo cumpleaños tendras" + " " + nueva_edad + " años")
+# FORMATEO DE CADENAS
+
+# opcion 1 funcion format
+
+print("en tu proximo cumpleaños tendras {}" .format(nueva_edad))
+
+# opcion 2 cadenas literales
+
+print(f"en tu proximo cumpleaños tendras {nueva_edad}")

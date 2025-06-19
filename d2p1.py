@@ -10,3 +10,6 @@ tuples (tup)        ('lun','mar','mie','jue','vie') --- entre parentesis parecid
 set (set)           {'a','b','c','d','e'} --- conjuto ordenadode elementos unicose irrepetible
 booleanos (bool)    True,False --- valores verdaderos o falsos
 """
+num1 = 13.87
+print(round(num1))
+print(int(num1))
